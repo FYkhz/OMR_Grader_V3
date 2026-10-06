@@ -1,0 +1,17 @@
+OMR Grader V3 Live - local engine tests
+
+PASS: fixed-sheet detection for 10 questions
+PASS: fixed-sheet detection for 20 questions
+PASS: fixed-sheet detection for 25 questions
+PASS: fixed-sheet detection for 40 questions
+PASS: fixed-sheet detection for 50 questions
+PASS: fixed-sheet detection for 51 questions
+PASS: fixed-sheet detection for 75 questions
+PASS: fixed-sheet detection for 100 questions
+PASS: perspective-warped sheet detection
+PASS: live 20-question auto-capture and grading
+PASS: duplicate-scan prevention while same paper stays visible
+PASS: live 100-question Page 1 -> remove -> Page 2 -> combined grade
+PASS: double-marked answer pauses for review and completes after teacher correction
+
+The Streamlit/WebRTC browser UI could not be launched inside this build container because package installation has no external network access. Current API usage was checked against the current streamlit-webrtc and Streamlit documentation, and all Python source files compile successfully.
